@@ -1,0 +1,17 @@
+.list {
+  margin-top: 14px;
+  padding-left: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left: 10px;
+}
