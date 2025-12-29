@@ -2,13 +2,15 @@
   padding: 10px 14px;
   border-radius: 10px;
   margin-bottom: 10px;
-  background: #fafafa;
-  border: 1px solid #e5e7eb;
+
+  background: var(--card);
+  color: var(--text);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
   gap: 10px;
   transition: 0.15s ease;
-  border-bottom: 1px solid #eee;
   justify-content: space-between;
 }
 
@@ -89,17 +91,17 @@
 }
 
 .today {
-  background: #fff4d6;
-  color: #b87900;
+  background: rgba(255, 193, 7, 0.15);
+  color: #ffc107;
 }
 
 .overdue {
-  background: #ffe2e0;
-  color: #b00020;
+  background: rgba(255, 76, 76, 0.18);
+  color: #ff6b6b;
 }
 
 .item:hover {
-  background: #fafafa;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .actions {
