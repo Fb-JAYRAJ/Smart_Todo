@@ -1,19 +1,77 @@
-# React + Vite
+# ✅ Smart Todo — React Productivity App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Smart Todo is a feature-rich task manager built with **React + Context API**.  
+It’s designed to feel simple — but has smart tools that real users actually need.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+### ✔ Task Management
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Add / Edit / Delete tasks
+- Mark tasks as completed
+- Categories (Work, Study, Personal, etc.)
+- Due dates
 
-Note: This will impact Vite dev & build performances.
+### 🎯 Productivity Boosters
 
-## Expanding the ESLint configuration
+- Priority levels — Low / Medium / High
+- Sort by:
+  - Newest
+  - Oldest
+  - Priority
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Smart_Todo
+### 🔎 Smart Controls
+
+- Search tasks
+- Filter by:
+  - All
+  - Completed
+  - Pending
+
+### 🗂 Extra Nice Touches
+
+- Undo recently deleted completed tasks
+- LocalStorage persistence (tasks don’t disappear on refresh)
+- Overdue + Due Today indicators
+- Dark / Light theme toggle
+- Clean UI with CSS Modules
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **Context API**
+- **Vite**
+- **CSS Modules**
+- **LocalStorage**
+
+---
+
+## 🚀 Run the project locally
+
+### 1️⃣ Clone repo:
+
+```
+git clone https://github.com/Fb-JAYRAJ/Smart_Todo.git
+```
+
+### 2️⃣ Go inside project:
+
+```
+cd Smart_Todo
+```
+
+### 3️⃣ Install dependencies:
+
+```
+npm install
+```
+
+4️⃣ Start dev server:
+
+```
+npm run dev
+```
